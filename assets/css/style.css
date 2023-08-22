@@ -389,6 +389,7 @@ nav ul li a {
   height: 100px;
   border: 0;
   border-bottom: 1px solid #ced4da;
+  outline: none;
 }
 .contact input[type="submit"] {
   height: 65px;
