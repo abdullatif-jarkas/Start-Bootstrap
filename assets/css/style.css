@@ -400,6 +400,7 @@ nav ul li a {
   font-size: 20px;
   cursor: pointer;
   transition: .1s;
+  padding-bottom: 0;
 }
 .contact input[type="submit"]:active {
   transform: scale(1.05);
