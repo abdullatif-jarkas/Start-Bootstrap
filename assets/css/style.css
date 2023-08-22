@@ -379,10 +379,11 @@ nav ul li a {
   }
 }
 .contact input {
-  height: 35px;
+  height: 55px;
   border: 0;
   border-bottom: 1px solid #ced4da;
   outline: none;
+  padding-bottom: 35px;
 }
 .contact textarea {
   height: 100px;
@@ -402,6 +403,10 @@ nav ul li a {
 }
 .contact input[type="submit"]:active {
   transform: scale(1.05);
+}
+.contact input::placeholder {
+  position: absolute;
+  top: 0;
 }
 /* End Contact */
 /* Start Footer */
