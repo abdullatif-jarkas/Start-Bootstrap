@@ -113,6 +113,14 @@ nav {
   width: 100vw;
   box-shadow: 0 0 15px -5px black;
 }
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 0 30px;
+  }
+  nav .logo h1 {
+    font-size: 1.1rem;
+  }
+}
 nav ul {
   gap: 20px;
 }
@@ -354,6 +362,9 @@ nav ul li a {
 /* Start Contact */
 .contact {
   color: var(--secondary-color);
+}
+.contact h2 {
+  font-size: 2.5rem;
 }
 .contact .star::after, .contact .star::before {
   background-color: var(--secondary-color);
